@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css?family=Futura");
+
+*{
+  font-family: 'Futura';
+}
+
+html{
+  background-color: white;
+  color: black;
+  transition: all ease-in-out 300ms;
+}
+
+
+.dark{
+  background-color: #2a2022;
+  color: white;
+  transition: all ease-in-out 300ms;
+}
